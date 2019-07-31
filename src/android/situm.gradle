@@ -17,18 +17,3 @@ dependencies {
         transitive = true
     }
 }
-
-buildscript {
-    repositories {
-        mavenCentral()
-        jcenter()
-    }
-
-    dependencies {
-        classpath 'com.google.gms:google-services:3.3.0'
-    }
-}
-
-ext.postBuildExtras = {
-    //apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
-}
