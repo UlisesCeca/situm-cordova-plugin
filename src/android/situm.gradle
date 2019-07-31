@@ -1,12 +1,12 @@
 allprojects {
     repositories {
-        jcenter()
         maven {
             url "https://repo.situm.es/artifactory/libs-release-local"
         }
         maven {
             url "https://maven.google.com"
         }
+        jcenter()
     }
 }
 
@@ -20,8 +20,8 @@ dependencies {
 
 buildscript {
     repositories {
-        jcenter()
         mavenCentral()
+        jcenter()
     }
 
     dependencies {
